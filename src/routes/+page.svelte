@@ -30,89 +30,80 @@
     });
   }
 
-  function groupByDate<T extends { start: string }>(events: T[]): Map<string, T[]> {
-    const map = new Map<string, T[]>();
-    for (const event of events) {
-      const key = dateKey(event.start);
-      if (!map.has(key)) map.set(key, []);
-      map.get(key)!.push(event);
-    }
-    return map;
+  function timeKey(isoString: string): string {
+    const d = new Date(isoString);
+    return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
   }
 
-  const wcEvents = $derived(data.events.filter((e) => e.type === 'wc'));
-  const localEvents = $derived(data.events.filter((e) => e.type === 'local'));
+  type EventItem = typeof data.events[number];
 
-  const allDates = $derived.by(() => {
-    const dates = new Set<string>();
-    for (const e of data.events) dates.add(dateKey(e.start));
-    return [...dates].sort();
+  interface TimeSlot {
+    time: string;
+    wc: EventItem[];
+    local: EventItem[];
+  }
+
+  const eventsByDate = $derived.by(() => {
+    const byDate = new Map<string, Map<string, TimeSlot>>();
+
+    for (const event of data.events) {
+      const dk = dateKey(event.start);
+      const tk = timeKey(event.start);
+
+      if (!byDate.has(dk)) byDate.set(dk, new Map());
+      const slots = byDate.get(dk)!;
+
+      if (!slots.has(tk)) slots.set(tk, { time: tk, wc: [], local: [] });
+      const slot = slots.get(tk)!;
+
+      if (event.type === 'wc') slot.wc.push(event);
+      else slot.local.push(event);
+    }
+
+    return byDate;
   });
 
-  const wcByDate = $derived(groupByDate(wcEvents));
-  const localByDate = $derived(groupByDate(localEvents));
+  const allDates = $derived([...eventsByDate.keys()].sort());
 </script>
 
-<div class="max-w-6xl mx-auto px-4 py-8">
+<div class="max-w-xl mx-auto px-4 py-8">
   <h1 class="text-3xl font-bold mb-8">Schedule</h1>
 
   {#each allDates as dateStr}
-    {@const wc = wcByDate.get(dateStr) ?? []}
-    {@const local = localByDate.get(dateStr) ?? []}
-    {#if wc.length > 0 || local.length > 0}
-      <section class="mb-10">
-        <h2 class="text-lg font-semibold text-gray-500 border-b border-gray-200 pb-2 mb-4">
-          {formatDate(dateStr)}
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
-
-          <!-- WC games: 2 cols -->
-          <div class="md:col-span-2">
-            {#if wc.length > 0}
-              <ul class="space-y-2">
-                {#each wc as event}
-                  <li class="py-2 border-b border-gray-100 last:border-0">
-                    <time class="text-xs text-gray-400 block" datetime={event.start}>
-                      {formatTime(event.start)}
-                    </time>
-                    <p class="font-medium text-sm leading-snug mt-0.5">{event.title}</p>
-                    {#if event.location}
-                      <p class="text-xs text-gray-500 mt-0.5">{event.location}</p>
-                    {/if}
-                  </li>
-                {/each}
-              </ul>
-            {:else}
-              <p class="text-sm text-gray-300 italic">No matches</p>
-            {/if}
+    {@const slots = [...(eventsByDate.get(dateStr)?.values() ?? [])].sort((a, b) => a.time.localeCompare(b.time))}
+    <section class="mb-10">
+      <h2 class="text-lg font-semibold border-b border-gray-200 pb-2 mb-4">
+        {formatDate(dateStr)}
+      </h2>
+      <div class="space-y-5">
+        {#each slots as slot}
+          {@const anchor = slot.wc[0] ?? slot.local[0]}
+          <div>
+            <p class="text-sm font-semibold text-gray-500 mb-1.5">{formatTime(anchor.start)}</p>
+            <ul class="space-y-1.5">
+              {#each slot.wc as event}
+                <li class="pl-3 border-l-2 border-green-400">
+                  <p class="text-sm font-medium">{event.title}</p>
+                  {#if event.location}
+                    <p class="text-xs text-gray-400">{event.location}</p>
+                  {/if}
+                </li>
+              {/each}
+              {#each slot.local as event}
+                <li class="pl-3 border-l-2 border-blue-400">
+                  <p class="text-sm font-medium">{event.title}</p>
+                  {#if event.location}
+                    <p class="text-xs text-gray-400">{event.location}</p>
+                  {/if}
+                  {#if event.description}
+                    <p class="text-xs text-gray-400">{event.description}</p>
+                  {/if}
+                </li>
+              {/each}
+            </ul>
           </div>
-
-          <!-- Local events: 4 cols -->
-          <div class="md:col-span-4">
-            {#if local.length > 0}
-              <ul class="space-y-2">
-                {#each local as event}
-                  <li class="py-2 border-b border-gray-100 last:border-0">
-                    <time class="text-xs text-gray-400 block" datetime={event.start}>
-                      {formatTime(event.start)}
-                    </time>
-                    <p class="font-medium text-sm leading-snug mt-0.5">{event.title}</p>
-                    {#if event.location}
-                      <p class="text-xs text-gray-500 mt-0.5">{event.location}</p>
-                    {/if}
-                    {#if event.description}
-                      <p class="text-xs text-gray-400 mt-0.5">{event.description}</p>
-                    {/if}
-                  </li>
-                {/each}
-              </ul>
-            {:else}
-              <p class="text-sm text-gray-300 italic">No local events</p>
-            {/if}
-          </div>
-
-        </div>
-      </section>
-    {/if}
+        {/each}
+      </div>
+    </section>
   {/each}
 </div>

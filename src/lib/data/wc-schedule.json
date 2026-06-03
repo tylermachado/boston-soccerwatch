@@ -1,0 +1,730 @@
+[
+  {
+    "uid": "ceweL5A18s-f91vReOUsL",
+    "summary": "Mexico v South Africa",
+    "start": "2026-06-11T19:00:00Z",
+    "description": "🏆 First Stage - Group A",
+    "location": "Mexico City Stadium, Mexico City"
+  },
+  {
+    "uid": "TLC37nZ_szxl-xxehEC1d",
+    "summary": "Korea Republic v Czechia",
+    "start": "2026-06-12T02:00:00Z",
+    "description": "🏆 First Stage - Group A",
+    "location": "Guadalajara Stadium, Guadalajara"
+  },
+  {
+    "uid": "mtF7AzhztkGeGm589EAB6",
+    "summary": "Canada v Bosnia and Herzegovina",
+    "start": "2026-06-12T19:00:00Z",
+    "description": "🏆 First Stage - Group B",
+    "location": "Toronto Stadium, Toronto"
+  },
+  {
+    "uid": "3HdQ1bfR2XK1Z0_-fqQio",
+    "summary": "USA v Paraguay",
+    "start": "2026-06-13T01:00:00Z",
+    "description": "🏆 First Stage - Group D",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "2uGLinKevWr01an4SJz6g",
+    "summary": "Qatar v Switzerland",
+    "start": "2026-06-13T19:00:00Z",
+    "description": "🏆 First Stage - Group B",
+    "location": "San Francisco Bay Area Stadium, San Francisco Bay Area"
+  },
+  {
+    "uid": "YMZ-OvOXix42FFOScNTnH",
+    "summary": "Brazil v Morocco",
+    "start": "2026-06-13T22:00:00Z",
+    "description": "🏆 First Stage - Group C",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "XPu1Zmg57mZr3iiUbrXao",
+    "summary": "Haiti v Scotland",
+    "start": "2026-06-14T01:00:00Z",
+    "description": "🏆 First Stage - Group C",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "2_44zCxAHNCIC9qIJP36c",
+    "summary": "Australia v Türkiye",
+    "start": "2026-06-14T04:00:00Z",
+    "description": "🏆 First Stage - Group D",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "K82E3KaWKwDVdEIVskbYi",
+    "summary": "Germany v Curaçao",
+    "start": "2026-06-14T17:00:00Z",
+    "description": "🏆 First Stage - Group E",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "mrlMPomTRLEYiHh9MLbpk",
+    "summary": "Netherlands v Japan",
+    "start": "2026-06-14T20:00:00Z",
+    "description": "🏆 First Stage - Group F",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "s_gOHxD-jQe08bZT7h8w7",
+    "summary": "Côte d'Ivoire v Ecuador",
+    "start": "2026-06-14T23:00:00Z",
+    "description": "🏆 First Stage - Group E",
+    "location": "Philadelphia Stadium, Philadelphia"
+  },
+  {
+    "uid": "_3EvS5NV5yn_BORHCiPvF",
+    "summary": "Sweden v Tunisia",
+    "start": "2026-06-15T02:00:00Z",
+    "description": "🏆 First Stage - Group F",
+    "location": "Monterrey Stadium, Monterrey"
+  },
+  {
+    "uid": "dBJxb0DQ9GXsb5MW3tpqv",
+    "summary": "Spain v Cabo Verde",
+    "start": "2026-06-15T16:00:00Z",
+    "description": "🏆 First Stage - Group H",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "1CZRP8vYYhUtAdx7lWY7-",
+    "summary": "Belgium v Egypt",
+    "start": "2026-06-15T19:00:00Z",
+    "description": "🏆 First Stage - Group G",
+    "location": "Seattle Stadium, Seattle"
+  },
+  {
+    "uid": "6BMI7Uvv0LUFRMb4pSlPU",
+    "summary": "Saudi Arabia v Uruguay",
+    "start": "2026-06-15T22:00:00Z",
+    "description": "🏆 First Stage - Group H",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "x95wGUKfnz2wGNUsuyx2v",
+    "summary": "IR Iran v New Zealand",
+    "start": "2026-06-16T01:00:00Z",
+    "description": "🏆 First Stage - Group G",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "mPUa-LLIB_liMxY9mIeaT",
+    "summary": "France v Senegal",
+    "start": "2026-06-16T19:00:00Z",
+    "description": "🏆 First Stage - Group I",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "0_BeSkoPvw6f8XGr0qhAK",
+    "summary": "Iraq v Norway",
+    "start": "2026-06-16T22:00:00Z",
+    "description": "🏆 First Stage - Group I",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "bG7bbTwIdF_EyWYtx7ekt",
+    "summary": "Argentina v Algeria",
+    "start": "2026-06-17T01:00:00Z",
+    "description": "🏆 First Stage - Group J",
+    "location": "Kansas City Stadium, Kansas City"
+  },
+  {
+    "uid": "7cndV-1Q7zgfzq0Bp8FXQ",
+    "summary": "Austria v Jordan",
+    "start": "2026-06-17T04:00:00Z",
+    "description": "🏆 First Stage - Group J",
+    "location": "San Francisco Bay Area Stadium, San Francisco Bay Area"
+  },
+  {
+    "uid": "7M6VTXcxXpM7uOaq5y2tU",
+    "summary": "Portugal v Congo DR",
+    "start": "2026-06-17T17:00:00Z",
+    "description": "🏆 First Stage - Group K",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "z-nemyly7e3P6JG7YGj0y",
+    "summary": "England v Croatia",
+    "start": "2026-06-17T20:00:00Z",
+    "description": "🏆 First Stage - Group L",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "7P8YDiDclivzjJrTVrbuF",
+    "summary": "Ghana v Panama",
+    "start": "2026-06-17T23:00:00Z",
+    "description": "🏆 First Stage - Group L",
+    "location": "Toronto Stadium, Toronto"
+  },
+  {
+    "uid": "SQHnj5ITCwqRN3W_KhbkK",
+    "summary": "Uzbekistan v Colombia",
+    "start": "2026-06-18T02:00:00Z",
+    "description": "🏆 First Stage - Group K",
+    "location": "Mexico City Stadium, Mexico City"
+  },
+  {
+    "uid": "LU2IoyrD56VftpHsKuvzS",
+    "summary": "Czechia v South Africa",
+    "start": "2026-06-18T16:00:00Z",
+    "description": "🏆 First Stage - Group A",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "6UMPmnYsrb_ka8pmirVGJ",
+    "summary": "Switzerland v Bosnia and Herzegovina",
+    "start": "2026-06-18T19:00:00Z",
+    "description": "🏆 First Stage - Group B",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "vI7mdS9DXQ0VrYNBOQzKP",
+    "summary": "Canada v Qatar",
+    "start": "2026-06-18T22:00:00Z",
+    "description": "🏆 First Stage - Group B",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "VaEo9j_tMFKHuZ3u46kZr",
+    "summary": "Mexico v Korea Republic",
+    "start": "2026-06-19T01:00:00Z",
+    "description": "🏆 First Stage - Group A",
+    "location": "Guadalajara Stadium, Guadalajara"
+  },
+  {
+    "uid": "vopqYRWAa4Nh2KtQa100o",
+    "summary": "USA v Australia",
+    "start": "2026-06-19T19:00:00Z",
+    "description": "🏆 First Stage - Group D",
+    "location": "Seattle Stadium, Seattle"
+  },
+  {
+    "uid": "XbRvmes66kik6dWOVHFCa",
+    "summary": "Scotland v Morocco",
+    "start": "2026-06-19T22:00:00Z",
+    "description": "🏆 First Stage - Group C",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "zXRAt9vcFqBoDO6Oce3uK",
+    "summary": "Brazil v Haiti",
+    "start": "2026-06-20T00:30:00Z",
+    "description": "🏆 First Stage - Group C",
+    "location": "Philadelphia Stadium, Philadelphia"
+  },
+  {
+    "uid": "12jZ4mTldwah4j2-Pm_Y0",
+    "summary": "Türkiye v Paraguay",
+    "start": "2026-06-20T03:00:00Z",
+    "description": "🏆 First Stage - Group D",
+    "location": "San Francisco Bay Area Stadium, San Francisco Bay Area"
+  },
+  {
+    "uid": "B1-1ygetHFtSyCaSHeS-i",
+    "summary": "Netherlands v Sweden",
+    "start": "2026-06-20T17:00:00Z",
+    "description": "🏆 First Stage - Group F",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "HfBdSW3XksBI5Eyiypy_f",
+    "summary": "Germany v Côte d'Ivoire",
+    "start": "2026-06-20T20:00:00Z",
+    "description": "🏆 First Stage - Group E",
+    "location": "Toronto Stadium, Toronto"
+  },
+  {
+    "uid": "pjRJ1V18c_K8mXx-XSd-9",
+    "summary": "Ecuador v Curaçao",
+    "start": "2026-06-21T00:00:00Z",
+    "description": "🏆 First Stage - Group E",
+    "location": "Kansas City Stadium, Kansas City"
+  },
+  {
+    "uid": "GAC1ujDP-ifkypaoXnimA",
+    "summary": "Tunisia v Japan",
+    "start": "2026-06-21T04:00:00Z",
+    "description": "🏆 First Stage - Group F",
+    "location": "Monterrey Stadium, Monterrey"
+  },
+  {
+    "uid": "O1Vi89xKG4K8FGBWEjAeZ",
+    "summary": "Spain v Saudi Arabia",
+    "start": "2026-06-21T16:00:00Z",
+    "description": "🏆 First Stage - Group H",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "PYiQ2txuFi6a-UJJqK4Dx",
+    "summary": "Belgium v IR Iran",
+    "start": "2026-06-21T19:00:00Z",
+    "description": "🏆 First Stage - Group G",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "M1g3gf1QURokm0CUpOtSr",
+    "summary": "Uruguay v Cabo Verde",
+    "start": "2026-06-21T22:00:00Z",
+    "description": "🏆 First Stage - Group H",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "E8q018wzRrYKJB4yuL3pd",
+    "summary": "New Zealand v Egypt",
+    "start": "2026-06-22T01:00:00Z",
+    "description": "🏆 First Stage - Group G",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "wgQzMUGy_m3vipTSgGOfm",
+    "summary": "Argentina v Austria",
+    "start": "2026-06-22T17:00:00Z",
+    "description": "🏆 First Stage - Group J",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "qSkQ096WAtLMLUdpX_fU0",
+    "summary": "France v Iraq",
+    "start": "2026-06-22T21:00:00Z",
+    "description": "🏆 First Stage - Group I",
+    "location": "Philadelphia Stadium, Philadelphia"
+  },
+  {
+    "uid": "LWjDBgHgxfTieCiCICu5z",
+    "summary": "Norway v Senegal",
+    "start": "2026-06-23T00:00:00Z",
+    "description": "🏆 First Stage - Group I",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "wwrFAcxqTubWx7RsjPaVC",
+    "summary": "Jordan v Algeria",
+    "start": "2026-06-23T03:00:00Z",
+    "description": "🏆 First Stage - Group J",
+    "location": "San Francisco Bay Area Stadium, San Francisco Bay Area"
+  },
+  {
+    "uid": "YkDVTGrwiIofAGD4hUEaa",
+    "summary": "Portugal v Uzbekistan",
+    "start": "2026-06-23T17:00:00Z",
+    "description": "🏆 First Stage - Group K",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "P1tTPbSlAzfmNOYRDPhPO",
+    "summary": "England v Ghana",
+    "start": "2026-06-23T20:00:00Z",
+    "description": "🏆 First Stage - Group L",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "10RzVuV7W6caiMDc5PtJZ",
+    "summary": "Panama v Croatia",
+    "start": "2026-06-23T23:00:00Z",
+    "description": "🏆 First Stage - Group L",
+    "location": "Toronto Stadium, Toronto"
+  },
+  {
+    "uid": "zy-YeJ069qiS3pHygqhKQ",
+    "summary": "Colombia v Congo DR",
+    "start": "2026-06-24T02:00:00Z",
+    "description": "🏆 First Stage - Group K",
+    "location": "Guadalajara Stadium, Guadalajara"
+  },
+  {
+    "uid": "M9B5OBlIVW2Nsam4m1Pie",
+    "summary": "Bosnia and Herzegovina v Qatar",
+    "start": "2026-06-24T19:00:00Z",
+    "description": "🏆 First Stage - Group B",
+    "location": "Seattle Stadium, Seattle"
+  },
+  {
+    "uid": "aBQqU1CCO9615-i1LLWUz",
+    "summary": "Switzerland v Canada",
+    "start": "2026-06-24T19:00:00Z",
+    "description": "🏆 First Stage - Group B",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "_wcXTXStsxHC0UkfyhQZJ",
+    "summary": "Morocco v Haiti",
+    "start": "2026-06-24T22:00:00Z",
+    "description": "🏆 First Stage - Group C",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "OeXwfRL0lCh653RDb0qLg",
+    "summary": "Scotland v Brazil",
+    "start": "2026-06-24T22:00:00Z",
+    "description": "🏆 First Stage - Group C",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "_u-idO9uWgh1pIBNAJWlt",
+    "summary": "South Africa v Korea Republic",
+    "start": "2026-06-25T01:00:00Z",
+    "description": "🏆 First Stage - Group A",
+    "location": "Monterrey Stadium, Monterrey"
+  },
+  {
+    "uid": "2gtHnjOlkI7Mv9Z9Ru8o8",
+    "summary": "Czechia v Mexico",
+    "start": "2026-06-25T01:00:00Z",
+    "description": "🏆 First Stage - Group A",
+    "location": "Mexico City Stadium, Mexico City"
+  },
+  {
+    "uid": "dcGb9A-qvf3_fXXYj26vo",
+    "summary": "Curaçao v Côte d'Ivoire",
+    "start": "2026-06-25T20:00:00Z",
+    "description": "🏆 First Stage - Group E",
+    "location": "Philadelphia Stadium, Philadelphia"
+  },
+  {
+    "uid": "-X-DeFC0483vEp941p9cN",
+    "summary": "Ecuador v Germany",
+    "start": "2026-06-25T20:00:00Z",
+    "description": "🏆 First Stage - Group E",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "DiDVWrt1Ua5ULvF_XZAiC",
+    "summary": "Tunisia v Netherlands",
+    "start": "2026-06-25T23:00:00Z",
+    "description": "🏆 First Stage - Group F",
+    "location": "Kansas City Stadium, Kansas City"
+  },
+  {
+    "uid": "Zk1ME89Qfzg9jY6Ci0FO8",
+    "summary": "Japan v Sweden",
+    "start": "2026-06-25T23:00:00Z",
+    "description": "🏆 First Stage - Group F",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "dy1OIlCGpt3aZGxipdW1u",
+    "summary": "Paraguay v Australia",
+    "start": "2026-06-26T02:00:00Z",
+    "description": "🏆 First Stage - Group D",
+    "location": "San Francisco Bay Area Stadium, San Francisco Bay Area"
+  },
+  {
+    "uid": "KNglem5vXntj6xrOWKrKM",
+    "summary": "Türkiye v USA",
+    "start": "2026-06-26T02:00:00Z",
+    "description": "🏆 First Stage - Group D",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "Cq6cScg5S1cZ05v16HRjk",
+    "summary": "Senegal v Iraq",
+    "start": "2026-06-26T19:00:00Z",
+    "description": "🏆 First Stage - Group I",
+    "location": "Toronto Stadium, Toronto"
+  },
+  {
+    "uid": "jpCr6EmB0e0TGQCU03s42",
+    "summary": "Norway v France",
+    "start": "2026-06-26T19:00:00Z",
+    "description": "🏆 First Stage - Group I",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "AxChYg9h2DgV6SsjDTwwr",
+    "summary": "Uruguay v Spain",
+    "start": "2026-06-27T00:00:00Z",
+    "description": "🏆 First Stage - Group H",
+    "location": "Guadalajara Stadium, Guadalajara"
+  },
+  {
+    "uid": "XIyobGPwZXspZG1IZgy3G",
+    "summary": "Cabo Verde v Saudi Arabia",
+    "start": "2026-06-27T00:00:00Z",
+    "description": "🏆 First Stage - Group H",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "SVeEeIDEFDMihrnJxqclw",
+    "summary": "New Zealand v Belgium",
+    "start": "2026-06-27T03:00:00Z",
+    "description": "🏆 First Stage - Group G",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "1cOvxcLb89vAjIC7Yo7Bz",
+    "summary": "Egypt v IR Iran",
+    "start": "2026-06-27T03:00:00Z",
+    "description": "🏆 First Stage - Group G",
+    "location": "Seattle Stadium, Seattle"
+  },
+  {
+    "uid": "SuGK67uK0puJG9E7bTN3g",
+    "summary": "Panama v England",
+    "start": "2026-06-27T21:00:00Z",
+    "description": "🏆 First Stage - Group L",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "2EA_bvK8YIbd_G5lHAiT6",
+    "summary": "Croatia v Ghana",
+    "start": "2026-06-27T21:00:00Z",
+    "description": "🏆 First Stage - Group L",
+    "location": "Philadelphia Stadium, Philadelphia"
+  },
+  {
+    "uid": "yKr3nQb-86oH4SRv666F9",
+    "summary": "Congo DR v Uzbekistan",
+    "start": "2026-06-27T23:30:00Z",
+    "description": "🏆 First Stage - Group K",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "M3zlXeUzfWC-pBggpNfPR",
+    "summary": "Colombia v Portugal",
+    "start": "2026-06-27T23:30:00Z",
+    "description": "🏆 First Stage - Group K",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "tEMIizzESiY3UmOkt61un",
+    "summary": "Algeria v Austria",
+    "start": "2026-06-28T02:00:00Z",
+    "description": "🏆 First Stage - Group J",
+    "location": "Kansas City Stadium, Kansas City"
+  },
+  {
+    "uid": "TeUcVhluewPnGUzg3qm2h",
+    "summary": "Jordan v Argentina",
+    "start": "2026-06-28T02:00:00Z",
+    "description": "🏆 First Stage - Group J",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "m6_MqU_eumQocZnJTmMZX",
+    "summary": "2A v 2B",
+    "start": "2026-06-28T19:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "qhw45yNfpMcH5S3GSi-qr",
+    "summary": "1C v 2F",
+    "start": "2026-06-29T17:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "pBUXI9Goe8d1RRzehlatw",
+    "summary": "1E v 3ABCDF",
+    "start": "2026-06-29T20:30:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "83F6u6mrxfDq1lbUuk90r",
+    "summary": "1F v 2C",
+    "start": "2026-06-30T01:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Monterrey Stadium, Monterrey"
+  },
+  {
+    "uid": "6cNhNb1igiP6EWH9MLtZH",
+    "summary": "2E v 2I",
+    "start": "2026-06-30T17:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "zlZLHJkA8yKHAqhH7QhrG",
+    "summary": "1I v 3CDFGH",
+    "start": "2026-06-30T21:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "GYltfrrE9TDKs510ktOKU",
+    "summary": "1A v 3CEFHI",
+    "start": "2026-07-01T01:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Mexico City Stadium, Mexico City"
+  },
+  {
+    "uid": "7019d9a8MBDEptJB3nZ2J",
+    "summary": "1L v 3EHIJK",
+    "start": "2026-07-01T16:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "elOiL93bBGHaJRtprCuoy",
+    "summary": "1G v 3AEHIJ",
+    "start": "2026-07-01T20:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Seattle Stadium, Seattle"
+  },
+  {
+    "uid": "POUMhOW3y-MabFdM0wAF3",
+    "summary": "1D v 3BEFIJ",
+    "start": "2026-07-02T00:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "San Francisco Bay Area Stadium, San Francisco Bay Area"
+  },
+  {
+    "uid": "3wxsYGwWtUcJ0dESkiJYC",
+    "summary": "1H v 2J",
+    "start": "2026-07-02T19:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "CTTARu5QEF5Zzsv9By6YJ",
+    "summary": "2K v 2L",
+    "start": "2026-07-02T23:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Toronto Stadium, Toronto"
+  },
+  {
+    "uid": "pdaiDEOD_OoJ9mWLyBB_O",
+    "summary": "1B v 3EFGIJ",
+    "start": "2026-07-03T03:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "3_SMS2p8u5GKI-LYceJPC",
+    "summary": "2D v 2G",
+    "start": "2026-07-03T18:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "lVxvVeKb_BTwR5dg0ZUGE",
+    "summary": "1J v 2H",
+    "start": "2026-07-03T22:00:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "Npy65DD44A8NNwbUBQGPx",
+    "summary": "1K v 3DEIJL",
+    "start": "2026-07-04T01:30:00Z",
+    "description": "🏆 Round of 32",
+    "location": "Kansas City Stadium, Kansas City"
+  },
+  {
+    "uid": "YSgrFRlYo1IgFMbM_16zW",
+    "summary": "W73 v W75",
+    "start": "2026-07-04T17:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "Houston Stadium, Houston"
+  },
+  {
+    "uid": "4B-jpA6TtAt1oh-4uNH4A",
+    "summary": "W74 v W77",
+    "start": "2026-07-04T21:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "Philadelphia Stadium, Philadelphia"
+  },
+  {
+    "uid": "5wQ4-a7OFSTuZyCuHKWTg",
+    "summary": "W76 v W78",
+    "start": "2026-07-05T20:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  },
+  {
+    "uid": "zrVipYFSQ56d1RA6WE2bu",
+    "summary": "W79 v W80",
+    "start": "2026-07-06T00:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "Mexico City Stadium, Mexico City"
+  },
+  {
+    "uid": "829Wz9p7VqRfs2mEAVj8a",
+    "summary": "W83 v W84",
+    "start": "2026-07-06T19:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "tEk_8qV1tG3Ek_mKwVUWE",
+    "summary": "W81 v W82",
+    "start": "2026-07-07T00:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "Seattle Stadium, Seattle"
+  },
+  {
+    "uid": "okaSWkrzuBRobRID9viU9",
+    "summary": "W86 v W88",
+    "start": "2026-07-07T16:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "KwnxEyCj7hmJTbwRFERwE",
+    "summary": "W85 v W87",
+    "start": "2026-07-07T20:00:00Z",
+    "description": "🏆 Round of 16",
+    "location": "BC Place Vancouver, Vancouver"
+  },
+  {
+    "uid": "MOemuWzKy85g04ZCU7vmi",
+    "summary": "W89 v W90",
+    "start": "2026-07-09T20:00:00Z",
+    "description": "🏆 Quarter-final",
+    "location": "Boston Stadium, Boston"
+  },
+  {
+    "uid": "5X2UJgeZoMLn0sJp9gx8Z",
+    "summary": "W93 v W94",
+    "start": "2026-07-10T19:00:00Z",
+    "description": "🏆 Quarter-final",
+    "location": "Los Angeles Stadium, Los Angeles"
+  },
+  {
+    "uid": "XA1u8SwUAQ4AWNpJuuiyj",
+    "summary": "W91 v W92",
+    "start": "2026-07-11T21:00:00Z",
+    "description": "🏆 Quarter-final",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "nKgDjVhr-rKgHj0VZoR5C",
+    "summary": "W95 v W96",
+    "start": "2026-07-12T01:00:00Z",
+    "description": "🏆 Quarter-final",
+    "location": "Kansas City Stadium, Kansas City"
+  },
+  {
+    "uid": "Hgarkao_rkDEDTkQn9Erq",
+    "summary": "W97 v W98",
+    "start": "2026-07-14T19:00:00Z",
+    "description": "🏆 Semi-final",
+    "location": "Dallas Stadium, Dallas"
+  },
+  {
+    "uid": "63O-zOLuZXW1qU2ojaWsb",
+    "summary": "W99 v W100",
+    "start": "2026-07-15T19:00:00Z",
+    "description": "🏆 Semi-final",
+    "location": "Atlanta Stadium, Atlanta"
+  },
+  {
+    "uid": "CqeUb-7iE-xbW9tasiCND",
+    "summary": "RU101 v RU102",
+    "start": "2026-07-18T21:00:00Z",
+    "description": "🏆 Play-off for third place",
+    "location": "Miami Stadium, Miami"
+  },
+  {
+    "uid": "doWoorixPlXTDYpm8GpDK",
+    "summary": "W101 v W102",
+    "start": "2026-07-19T19:00:00Z",
+    "description": "🏆 Final",
+    "location": "New York/New Jersey Stadium, New Jersey"
+  }
+]
