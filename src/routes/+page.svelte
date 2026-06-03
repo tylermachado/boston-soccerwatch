@@ -1,5 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
+  import Footer from '$lib/components/Footer.svelte';
+  import Header from '$lib/components/Header.svelte';
 
   let { data }: { data: PageData } = $props();
 
@@ -66,13 +68,9 @@
   const allDates = $derived([...eventsByDate.keys()].sort());
 </script>
 
+<Header />
+
 <div class="max-w-6xl mx-auto px-4 py-8">
-  <h1 class="text-3xl font-bold mb-8">Boston Soccer Watch</h1>
-
-  <p class="mb-8">Watch parties for 2026 World Cup games in greater Boston.</p>
-
-  <p class="mb-8"><a href="https://docs.google.com/forms/d/e/1FAIpQLSea_5snoiJ4wJBqrtTiAffPJuq0Pa4OfrMhErPV38sjiJmlQw/viewform">Submit a party via this form.</a> All submissions are moderated before appearing live on the site.</p>
-
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {#each allDates as dateStr}
       {@const slots = [...(eventsByDate.get(dateStr)?.values() ?? [])].sort((a, b) => a.time.localeCompare(b.time))}
@@ -113,3 +111,5 @@
     {/each}
   </div>
 </div>
+
+<Footer />

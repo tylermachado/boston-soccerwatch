@@ -4,5 +4,24 @@
   body {
     font-family: 'Public Sans', sans-serif;
   }
+
+  a {
+    cursor: pointer;
+    color: #2563eb;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+
+  p a {
+    text-decoration: underline;
+  }
+
+  p a:hover {
+    color: #1d4ed8;
+  }
 }
 
