@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # Run every 3 hours to pull in new events
+    - cron: '0 0,3,6,9,12,15,18,21 * * *'
 
 permissions:
   contents: read
@@ -25,6 +28,8 @@ jobs:
           cache: npm
       
       - run: npm ci
+      
+      - run: npm run scrape
       
       - run: npm run build
       
