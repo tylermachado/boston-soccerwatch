@@ -37,6 +37,37 @@
     return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
   }
 
+  function downloadEventAsIcs(event: EventItem) {
+    const d = new Date(event.start);
+    const formatIcsDate = (date: Date) => {
+      return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+    };
+    
+    const endDate = new Date(d.getTime() + 2 * 60 * 60 * 1000); // 2 hour default duration
+    const icsContent = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//Soccer Watch//EN',
+      'BEGIN:VEVENT',
+      `DTSTART:${formatIcsDate(d)}`,
+      `DTEND:${formatIcsDate(endDate)}`,
+      `SUMMARY:${event.title}`,
+      ...(event.location ? [`LOCATION:${event.location}`] : []),
+      ...(event.description ? [`DESCRIPTION:${event.description}`] : []),
+      `UID:${event.uid || event.title}-${d.getTime()}@soccerwatch`,
+      'END:VEVENT',
+      'END:VCALENDAR'
+    ].join('\r\n');
+
+    const blob = new Blob([icsContent], { type: 'text/calendar' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${event.title}-${formatIcsDate(d).slice(0, 8)}.ics`;
+    link.click();
+    URL.revokeObjectURL(url);
+  }
+
   type EventItem = typeof data.events[number];
 
   interface TimeSlot {
@@ -93,14 +124,38 @@
                   </li>
                 {/each}
                 {#each slot.local as event}
-                  <li class="pl-3 border-l-2 border-blue-400 bg-blue-50 rounded-r py-1 pr-2">
-                    <p class="text-sm font-medium">{event.title}</p>
-                    {#if event.location}
-                      <p class="text-xs text-gray-400">{event.location}</p>
-                    {/if}
-                    {#if event.description}
-                      <button onclick={() => window.open(event.description, '_blank', 'noopener,noreferrer')} class="text-xs text-blue-500 hover:underline mt-0.5">info</button>
-                    {/if}
+                  <li class="flex items-center justify-between pl-3 border-l-2 border-blue-400 bg-blue-50 rounded-r py-1 pr-2">
+                    <div class="flex-1 min-w-0">
+                      <p class="text-sm font-medium">{event.title}</p>
+                      {#if event.location}
+                        <p class="text-xs text-gray-400">{event.location}</p>
+                      {/if}
+                    </div>
+                    <div class="flex gap-1 ml-2 flex-shrink-0">
+                      {#if event.description}
+                        <button 
+                          onclick={() => window.open(event.description, '_blank', 'noopener,noreferrer')} 
+                          class="p-1.5 bg-blue-200 hover:bg-blue-300 rounded text-blue-700 transition-colors cursor-pointer"
+                          title="Info"
+                        >
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                            <path d="M12 16v-4M12 8h.01" stroke-width="2" stroke-linecap="round"/>
+                          </svg>
+                        </button>
+                      {/if}
+                      <button 
+                        onclick={() => downloadEventAsIcs(event)} 
+                        class="p-1.5 bg-blue-200 hover:bg-blue-300 rounded text-blue-700 transition-colors cursor-pointer"
+                        title="Add to Calendar"
+                      >
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <rect x="3" y="4" width="18" height="18" rx="2" stroke-width="2"/>
+                          <path d="M16 2v4M8 2v4M3 10h18" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M12 14v4M10 16h4" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </button>
+                    </div>
                   </li>
                 {/each}
               </ul>
