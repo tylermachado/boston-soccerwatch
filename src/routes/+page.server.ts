@@ -11,6 +11,21 @@ export interface Event {
   type: 'wc' | 'local';
 }
 
+function nyDateKey(date: Date): string {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date);
+
+  const year = parts.find((part) => part.type === 'year')?.value ?? '';
+  const month = parts.find((part) => part.type === 'month')?.value ?? '';
+  const day = parts.find((part) => part.type === 'day')?.value ?? '';
+
+  return `${year}-${month}-${day}`;
+}
+
 // Combines a date string ("2026-06-12") with a time string (either "14:00" or "2:00 PM")
 // from the Apps Script (formatted in the spreadsheet's Eastern timezone)
 // into a UTC ISO timestamp using the EDT offset (UTC-4).
@@ -38,6 +53,8 @@ function formatSheetTime(timeStr: string): string {
 }
 
 export async function load() {
+  const todayNy = nyDateKey(new Date());
+
   const [wcGames, schedule] = await Promise.all([
     fetchWCSchedule(),
     fetchSchedule(),
@@ -64,9 +81,9 @@ export async function load() {
       type: 'local',
     }));
 
-  const events = [...wcEvents, ...localEvents].sort((a, b) =>
-    a.start.localeCompare(b.start)
-  );
+  const events = [...wcEvents, ...localEvents]
+    .filter((event) => nyDateKey(new Date(event.start)) >= todayNy)
+    .sort((a, b) => a.start.localeCompare(b.start));
 
   return { events };
 }
